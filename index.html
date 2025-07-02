@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Global Sourcing Specialty Group</title>
+    <style>
+        :root {
+            --primary-color: #1a3c5e;
+            --secondary-color: #2e7d9a;
+            --highlight-color: #e0a800;
+            --background-light: #f4f9fc;
+            --box-color: #f0f4f8;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: var(--text-color);
+        }
+
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        .header img {
+            height: 50px;
+        }
+
+        .header .title {
+            flex: 1;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .header .contact {
+            font-size: 0.9rem;
+        }
+
+        .main-content {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: var(--background-light);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .banner {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .banner p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+
+        .button {
+            background-color: var(--highlight-color);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .section {
+            margin: 30px 0;
+        }
+
+        .section h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .service-item {
+            background-color: var(--box-color);
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-item img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .service-item p {
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        .footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="gssg_logo.jpeg" alt="GSSG Logo" />
+        <div class="title">Solutions for Underserved Healthcare Markets</div>
+        <div class="contact">
+            📞 215-767-5584<br />
+            📧 mike@vsee.com
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="banner">
+            <h1>GLOBAL SOURCING SPECIALTY GROUP</h1>
+            <p>GSSG handles sourcing, pricing, and vendor management—so you can focus on care.</p>
+            <button class="button">Contact Us</button>
+        </div>
+
+        <div class="section">
+            <h2>Who We Are</h2>
+            <p>A team of supply chain and medical sales experts, GSSG delivers cost-effective, reliable, and sustainable procurement solutions. We support major health systems and underserved markets—like physician practices, ambulatory care, and long-term care facilities—with high-quality products at reduced prices.</p>
+        </div>
+
+        <div class="section">
+            <h2>How Can We Help</h2>
+            <div class="services">
+                <div class="service-item">
+                    <img src="manufacturers_aggregate_inventory.png" alt="Manufacturers Aggregate Inventory" />
+                    <p>Aggregate inventory for reducing service costs.</p>
+                </div>
+                <div class="service-item">
+                    <img src="our_trading_partners.png" alt="Trading Partners" />
+                    <p>Our trading partners offer true cost visibility with a maximum upcharge of just 10%, ensuring affordability and trust.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Our Strategic Partnerships</h2>
+            <p>We work with a network of 60+ verified global trading partners specializing in healthcare product distribution.</p>
+            <div class="services">
+                <div class="service-item">
+                    <img src="medical_surgical_products.png" alt="Medical Surgical Products" />
+                    <p>MEDICAL SURGICAL PRODUCTS</p>
+                </div>
+                <div class="service-item">
+                    <img src="pharmaceutical_products.png" alt="Pharmaceutical Products" />
+                    <p>PHARMACEUTICAL PRODUCTS</p>
+                </div>
+                <div class="service-item">
+                    <img src="equipment_purchase_services.png" alt="Equipment & Purchase Services" />
+                    <p>EQUIPMENT & PURCHASE SERVICES</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <p><em>With GSSG, healthcare providers gain access to a smarter, more sustainable, and cost-efficient online procurement model that strengthens their operational and financial stability.</em></p>
+            <p><strong>GSSG handles sourcing, pricing, and vendor management—so you can focus on care.</strong></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        📞 215-767-5584 | 📧 mike@vsee.com
+    </div>
+</body>
+</html>
